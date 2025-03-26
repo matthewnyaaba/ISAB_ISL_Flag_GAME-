@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISAB Flag Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>ISAB Flag Game</h1>
+        <p class="subtitle">Test Your Knowledge of the World</p>
+        <ul class="instructions">
+            <li>🌍 Match the flag with the correct country.</li>
+            <li>🎯 You have <strong>5 attempts</strong> in total.</li>
+            <li>🏆 Your final score will be shown out of <strong>100%</strong>.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div id="countdown" class="countdown"></div>
+        <div class="game-container">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="flag-container">
+                <img id="flag-image" src="" alt="Country Flag">
+            </div>
+            <div class="options-container">
+                <div id="options" class="options"></div>
+            </div>
+            <button id="next-btn" class="next-button">Next Flag</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
